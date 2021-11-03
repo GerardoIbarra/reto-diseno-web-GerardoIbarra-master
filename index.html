@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social proof section</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .p{
+        text-align: center;
+      }
+      #color{
+        color: blueviolet;
+      }
+      #fondo{
+        background-color: rgb(98, 40, 98);
+        color: floralwhite;
+        padding: 1%;
+        text-align: justify;
+        border-radius: 50px;
+
+      }
+      #dsds{
+        color: rgb(190, 99, 243);
+      }
+      #colorestrellas{
+        color: rgb(108, 53, 148);
+        background-color: rgb(230, 222, 222);
+        border-radius: 20px;
+        padding-top: 1%;
+        margin-top: 1%
+      }
+      #colorestrellas2{
+        color: rgb(108, 53, 148);
+        background-color: rgb(230, 222, 222);
+        border-radius: 20px;
+        padding-top: 1%;
+        margin-top: 1%;
+      }
+      #colorestrellas3{
+        color: rgb(108, 53, 148);
+        background-color: rgb(230, 222, 222);
+        border-radius: 20px;
+        padding-top: 1%;
+        margin-top: 1%;
+      }
+      #desplazado {
+        position: relative;
+        width: 25%;
+        height: 11%;
+        top:  -30%; 
+        right: 1cm;
+        padding: 1%;
+      }
+      #titulo {
+        background-color: white;
+        position: relative;
+        width: 60%;
+        height: 11%;
+        left: -6%;
+      }
+      #body{
+        position: absolute;
+        top: 5%;
+        margin: 2%;
+        font: 0%;
+      }
+      #imagen{
+        width: 80px;
+        height: 80px;
+        border-radius: 160px;
+        position: relative;
+        top: 10%;
+        left: 0%;
+        margin: 1ch;
+      }
+      #imagen2{
+        width: 20px;
+        height: 20px;
+        border-radius: 160px;
+        position: relative;
+        top: 10%;
+        left: 0%;
+        margin: 1ch;
+        display: flex;
+        
+      }
+      .xd{
+        text-align: center;
+      }
+      .p2{
+        color: indigo;
+        text-align: right;
+        top: 10%;
+        left: 0cm;
+        margin: 1ch;
+      }
+      .unir{
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body id="body"> 
+    <div class="unir">
+        <div class="container" id="titulo">
+              <h1 class="display-1">
+              <p id="color"><strong>10,000+ of our users love our products.</strong></p> 
+              </h1>
+              <h4 class="text-lowercase"> We only provide great products combined with excellent customer service.
+              See what our satisfied customers are saying about our services.</h4>
+        </div>
+        
+        <div id="desplazado" >
+          
+          <div id="colorestrellas">
+            <div class="unir">
+              <div id="imagen2">
+                <img src="./images/icon-star.svg" class="img-fluid">
+                <img src="./images/icon-star.svg" class="img-fluid">
+                <img src="./images/icon-star.svg" class="img-fluid">
+                <img src="./images/icon-star.svg" class="img-fluid">
+                <img src="./images/icon-star.svg" class="img-fluid">    
+              </div>
+              <div>
+                <p class="p2"><strong>  5 Stars in Reviews</strong></p>
+              </div> 
+            </div>
+          </div>
+          
+          <div id="colorestrellas2" >
+            <div class="unir2">
+              <div id="imagen2">
+                <img src="./images/icon-star.svg" class="img-fluid">
+                <img src="./images/icon-star.svg" class="img-fluid">
+                <img src="./images/icon-star.svg" class="img-fluid">
+                <img src="./images/icon-star.svg" class="img-fluid">
+                <img src="./images/icon-star.svg" class="img-fluid">    
+              </div>
+              <div>
+                <p class="p2"><strong>  5 Stars in Report Guru</strong></p>
+              </div> 
+            </div>
+          </div>
+
+          <div id="colorestrellas3" >
+            <div class="unir3">
+              <div id="imagen2">
+                <img src="./images/icon-star.svg" class="img-fluid">
+                <img src="./images/icon-star.svg" class="img-fluid">
+                <img src="./images/icon-star.svg" class="img-fluid">
+                <img src="./images/icon-star.svg" class="img-fluid">
+                <img src="./images/icon-star.svg" class="img-fluid">    
+              </div>
+              <div>
+                <p class="p2"><strong> 5 Stars in BestTech</strong></p>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+        <br>
+        <div class="row">
+          <div class="col-md-4 ml-auto">
+              <div class="container" id="fondo">
+                <di class="xd">
+                  <!--las imagenes las puse centradas no porque no supiese, si no porqué se ve mejor-->
+                  <center><img src="./images/image-colton.jpg" class="img-fluid" id="imagen"></center>
+                  <h2>Colton Smith</h2> 
+                  <p id="dsds"><strong> Buyer</strong></p>
+                </di>  
+                <p class="p">"We needed the same printed design as the one we had ordered a week prior.
+                Not only did they find the original order, but we also received it in time.
+                Excellent!"</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 ml-auto">
+              <div class="container" id="fondo">
+                <div class="xd">
+                  <img src="./images/image-irene.jpg" class="img-fluid" id="imagen">
+                  <h2>Irene Roberts</h2> 
+                  <p id="dsds"><strong>Verified Buyer</strong></p>
+                </div>
+                <p class="p">"Customer service is always excellent and very quick turn around. Completely
+                delighted with the simplicity of the purchase and the speed of delivery."</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 ml-auto">
+              <div class="container" id="fondo">
+                <div class="xd">
+                  <img src="./images/image-anne.jpg" class="img-fluid" id="imagen">
+                  <h2> Anne Wallace </h2> 
+                  <p id="dsds"><strong>Verified Buyer</strong></p>
+                </div>
+                <p class="p">"Put an order with this company and can only praise them for the very high
+                standard. Will definitely use them again and recommend them to everyone!"</p>
+              </div>
+            </div>
+        
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Luis Gerardo Ibarra Sustayd</a>.
+        </div>
+    </div>
+  </body>
+</html>
